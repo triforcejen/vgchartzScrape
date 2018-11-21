@@ -3,8 +3,8 @@ import urllib
 import pandas as pd
 import numpy as np
 import time
-pages = 2
-sleep_seconds = 12
+pages = 12
+sleep_seconds = 15
 rec_count = 0
 rank = []
 gname = []
