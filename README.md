@@ -9,7 +9,7 @@ It can be installed by pip.
 
 sudo pip install BeautifulSoup4
 
-There is a delay of 12 seconds per game scraped so prepare to leave this one running overnight!
+There is a delay of 15 seconds per game scraped so prepare to leave this one running overnight!
 
 Thanks to Chris Albon.
 http://chrisalbon.com/python/beautiful_soup_scrape_table.html
