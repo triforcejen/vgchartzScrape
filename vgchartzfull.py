@@ -2,8 +2,9 @@ from bs4 import BeautifulSoup, element
 import urllib
 import pandas as pd
 import numpy as np
-
-pages = 19
+import time
+pages = 2
+sleep_seconds = 12
 rec_count = 0
 rank = []
 gname = []
@@ -43,11 +44,11 @@ for page in range(1, pages):
     ))[10:]
 
     for tag in game_tags:
-
+        # sleep to circumvent 429 error
+        time.sleep(sleep_seconds)
         # add name to list
         gname.append(" ".join(tag.string.split()))
         print(f"{rec_count + 1} Fetch data for game {gname[-1]}")
-
         # get different attributes
         # traverse up the DOM tree
         data = tag.parent.parent.find_all("td")
