@@ -1,3 +1,4 @@
+This branch is currently unsuppprted check tuvtran for a more up to date repo, however there may still be something of worth here.
 vgchartzfull is a python script based on BeautifulSoup.
 It creates a dataset based on data from 
 http://www.vgchartz.com/gamedb/
